@@ -8,10 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		B609AB5D1B584C7900B1F8CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B609AB5C1B584C7900B1F8CD /* main.m */; };
-		B609AB601B584C7900B1F8CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B609AB5F1B584C7900B1F8CD /* AppDelegate.m */; };
 		B609AB661B584C7900B1F8CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B609AB641B584C7900B1F8CD /* Main.storyboard */; };
 		B609AB681B584C7900B1F8CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B609AB671B584C7900B1F8CD /* Images.xcassets */; };
 		B609AB6B1B584C7900B1F8CD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B609AB691B584C7900B1F8CD /* LaunchScreen.xib */; };
+		B60F19F21B64472D00AABBA2 /* ARAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B60F19F11B64472D00AABBA2 /* ARAppDelegate.m */; };
+		B60F19F71B64476F00AABBA2 /* ARMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60F19F61B64476F00AABBA2 /* ARMenuViewController.m */; };
+		B60F19FA1B6447CF00AABBA2 /* ARBiographyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60F19F91B6447CF00AABBA2 /* ARBiographyViewController.m */; };
+		B60F19FF1B64486900AABBA2 /* ARVideosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60F19FE1B64486900AABBA2 /* ARVideosViewController.m */; };
+		B60F1A031B6448B400AABBA2 /* ARImagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60F1A021B6448B400AABBA2 /* ARImagesViewController.m */; };
+		B60F1A071B6448F900AABBA2 /* ARInstagramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60F1A061B6448F900AABBA2 /* ARInstagramViewController.m */; };
+		B60F1A0B1B64493600AABBA2 /* ARSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60F1A0A1B64493600AABBA2 /* ARSettingsViewController.m */; };
+		B60F1A0F1B6449F900AABBA2 /* ARHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60F1A0E1B6449F900AABBA2 /* ARHomeViewController.m */; };
+		B60F1A131B644C7100AABBA2 /* ARTwitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60F1A121B644C7100AABBA2 /* ARTwitterViewController.m */; };
 		C846735C64B7C85BB3FA6106 /* libPods-Armies.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B77C27B676F9E296C7EA10 /* libPods-Armies.a */; };
 /* End PBXBuildFile section */
 
@@ -21,11 +29,27 @@
 		B609AB571B584C7900B1F8CD /* Armies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Armies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B609AB5B1B584C7900B1F8CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B609AB5C1B584C7900B1F8CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B609AB5E1B584C7900B1F8CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B609AB5F1B584C7900B1F8CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B609AB651B584C7900B1F8CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B609AB671B584C7900B1F8CD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B609AB6A1B584C7900B1F8CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B60F19F01B64472D00AABBA2 /* ARAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARAppDelegate.h; path = AppDelegate/ARAppDelegate.h; sourceTree = "<group>"; };
+		B60F19F11B64472D00AABBA2 /* ARAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARAppDelegate.m; path = AppDelegate/ARAppDelegate.m; sourceTree = "<group>"; };
+		B60F19F51B64476F00AABBA2 /* ARMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARMenuViewController.h; path = ViewController/ARMenuViewController.h; sourceTree = "<group>"; };
+		B60F19F61B64476F00AABBA2 /* ARMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARMenuViewController.m; path = ViewController/ARMenuViewController.m; sourceTree = "<group>"; };
+		B60F19F81B6447CF00AABBA2 /* ARBiographyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARBiographyViewController.h; path = ViewController/ARBiographyViewController.h; sourceTree = "<group>"; };
+		B60F19F91B6447CF00AABBA2 /* ARBiographyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARBiographyViewController.m; path = ViewController/ARBiographyViewController.m; sourceTree = "<group>"; };
+		B60F19FD1B64486900AABBA2 /* ARVideosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARVideosViewController.h; path = ViewController/ARVideosViewController.h; sourceTree = "<group>"; };
+		B60F19FE1B64486900AABBA2 /* ARVideosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARVideosViewController.m; path = ViewController/ARVideosViewController.m; sourceTree = "<group>"; };
+		B60F1A011B6448B400AABBA2 /* ARImagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARImagesViewController.h; path = ViewController/ARImagesViewController.h; sourceTree = "<group>"; };
+		B60F1A021B6448B400AABBA2 /* ARImagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARImagesViewController.m; path = ViewController/ARImagesViewController.m; sourceTree = "<group>"; };
+		B60F1A051B6448F900AABBA2 /* ARInstagramViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARInstagramViewController.h; path = ViewController/ARInstagramViewController.h; sourceTree = "<group>"; };
+		B60F1A061B6448F900AABBA2 /* ARInstagramViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARInstagramViewController.m; path = ViewController/ARInstagramViewController.m; sourceTree = "<group>"; };
+		B60F1A091B64493600AABBA2 /* ARSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARSettingsViewController.h; path = ViewController/ARSettingsViewController.h; sourceTree = "<group>"; };
+		B60F1A0A1B64493600AABBA2 /* ARSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARSettingsViewController.m; path = ViewController/ARSettingsViewController.m; sourceTree = "<group>"; };
+		B60F1A0D1B6449F900AABBA2 /* ARHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARHomeViewController.h; path = ViewController/ARHomeViewController.h; sourceTree = "<group>"; };
+		B60F1A0E1B6449F900AABBA2 /* ARHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARHomeViewController.m; path = ViewController/ARHomeViewController.m; sourceTree = "<group>"; };
+		B60F1A111B644C7100AABBA2 /* ARTwitterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARTwitterViewController.h; path = ViewController/ARTwitterViewController.h; sourceTree = "<group>"; };
+		B60F1A121B644C7100AABBA2 /* ARTwitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARTwitterViewController.m; path = ViewController/ARTwitterViewController.m; sourceTree = "<group>"; };
 		B6FFA5CA4ECB147CB4550F94 /* Pods-Armies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Armies.release.xcconfig"; path = "Pods/Target Support Files/Pods-Armies/Pods-Armies.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,8 +95,8 @@
 		B609AB591B584C7900B1F8CD /* Armies */ = {
 			isa = PBXGroup;
 			children = (
-				B609AB5E1B584C7900B1F8CD /* AppDelegate.h */,
-				B609AB5F1B584C7900B1F8CD /* AppDelegate.m */,
+				B60F19F31B64473800AABBA2 /* AppDelegate */,
+				B60F19F41B64474B00AABBA2 /* ViewControllers */,
 				B609AB641B584C7900B1F8CD /* Main.storyboard */,
 				B609AB671B584C7900B1F8CD /* Images.xcassets */,
 				B609AB691B584C7900B1F8CD /* LaunchScreen.xib */,
@@ -88,6 +112,102 @@
 				B609AB5C1B584C7900B1F8CD /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B60F19F31B64473800AABBA2 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				B60F19F01B64472D00AABBA2 /* ARAppDelegate.h */,
+				B60F19F11B64472D00AABBA2 /* ARAppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		B60F19F41B64474B00AABBA2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B60F19FB1B64481100AABBA2 /* ARMenuViewController */,
+				B60F1A101B644A0C00AABBA2 /* ARHomeViewController */,
+				B60F19FC1B64481E00AABBA2 /* ARBiographyViewController */,
+				B60F1A001B64487100AABBA2 /* ARVideosViewController */,
+				B60F1A041B6448C400AABBA2 /* ARImagesViewController */,
+				B60F1A081B64490000AABBA2 /* ARInstagramViewController */,
+				B60F1A0C1B64493D00AABBA2 /* ARSettingsViewController */,
+				B60F1A141B644C7600AABBA2 /* ARTwitterViewController */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B60F19FB1B64481100AABBA2 /* ARMenuViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B60F19F51B64476F00AABBA2 /* ARMenuViewController.h */,
+				B60F19F61B64476F00AABBA2 /* ARMenuViewController.m */,
+			);
+			name = ARMenuViewController;
+			sourceTree = "<group>";
+		};
+		B60F19FC1B64481E00AABBA2 /* ARBiographyViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B60F19F81B6447CF00AABBA2 /* ARBiographyViewController.h */,
+				B60F19F91B6447CF00AABBA2 /* ARBiographyViewController.m */,
+			);
+			name = ARBiographyViewController;
+			sourceTree = "<group>";
+		};
+		B60F1A001B64487100AABBA2 /* ARVideosViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B60F19FD1B64486900AABBA2 /* ARVideosViewController.h */,
+				B60F19FE1B64486900AABBA2 /* ARVideosViewController.m */,
+			);
+			name = ARVideosViewController;
+			sourceTree = "<group>";
+		};
+		B60F1A041B6448C400AABBA2 /* ARImagesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B60F1A011B6448B400AABBA2 /* ARImagesViewController.h */,
+				B60F1A021B6448B400AABBA2 /* ARImagesViewController.m */,
+			);
+			name = ARImagesViewController;
+			sourceTree = "<group>";
+		};
+		B60F1A081B64490000AABBA2 /* ARInstagramViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B60F1A051B6448F900AABBA2 /* ARInstagramViewController.h */,
+				B60F1A061B6448F900AABBA2 /* ARInstagramViewController.m */,
+			);
+			name = ARInstagramViewController;
+			sourceTree = "<group>";
+		};
+		B60F1A0C1B64493D00AABBA2 /* ARSettingsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B60F1A091B64493600AABBA2 /* ARSettingsViewController.h */,
+				B60F1A0A1B64493600AABBA2 /* ARSettingsViewController.m */,
+			);
+			name = ARSettingsViewController;
+			sourceTree = "<group>";
+		};
+		B60F1A101B644A0C00AABBA2 /* ARHomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B60F1A0D1B6449F900AABBA2 /* ARHomeViewController.h */,
+				B60F1A0E1B6449F900AABBA2 /* ARHomeViewController.m */,
+			);
+			name = ARHomeViewController;
+			sourceTree = "<group>";
+		};
+		B60F1A141B644C7600AABBA2 /* ARTwitterViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B60F1A111B644C7100AABBA2 /* ARTwitterViewController.h */,
+				B60F1A121B644C7100AABBA2 /* ARTwitterViewController.m */,
+			);
+			name = ARTwitterViewController;
 			sourceTree = "<group>";
 		};
 		C7FE531D43563C620473341F /* Frameworks */ = {
@@ -204,8 +324,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B609AB601B584C7900B1F8CD /* AppDelegate.m in Sources */,
+				B60F1A0B1B64493600AABBA2 /* ARSettingsViewController.m in Sources */,
+				B60F19FF1B64486900AABBA2 /* ARVideosViewController.m in Sources */,
+				B60F1A071B6448F900AABBA2 /* ARInstagramViewController.m in Sources */,
+				B60F1A131B644C7100AABBA2 /* ARTwitterViewController.m in Sources */,
+				B60F1A0F1B6449F900AABBA2 /* ARHomeViewController.m in Sources */,
 				B609AB5D1B584C7900B1F8CD /* main.m in Sources */,
+				B60F19FA1B6447CF00AABBA2 /* ARBiographyViewController.m in Sources */,
+				B60F19F21B64472D00AABBA2 /* ARAppDelegate.m in Sources */,
+				B60F19F71B64476F00AABBA2 /* ARMenuViewController.m in Sources */,
+				B60F1A031B6448B400AABBA2 /* ARImagesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
