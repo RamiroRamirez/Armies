@@ -6,13 +6,13 @@
 //  Copyright (c) 2015 RAM. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "ARAppDelegate.h"
 
-@interface AppDelegate ()
+@interface ARAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation ARAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
