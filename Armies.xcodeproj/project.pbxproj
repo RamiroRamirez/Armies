@@ -20,6 +20,7 @@
 		B60F1A0B1B64493600AABBA2 /* ARSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60F1A0A1B64493600AABBA2 /* ARSettingsViewController.m */; };
 		B60F1A0F1B6449F900AABBA2 /* ARHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60F1A0E1B6449F900AABBA2 /* ARHomeViewController.m */; };
 		B60F1A131B644C7100AABBA2 /* ARTwitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60F1A121B644C7100AABBA2 /* ARTwitterViewController.m */; };
+		B60F1A281B65140600AABBA2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B60F1A2A1B65140600AABBA2 /* Localizable.strings */; };
 		C846735C64B7C85BB3FA6106 /* libPods-Armies.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B77C27B676F9E296C7EA10 /* libPods-Armies.a */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,11 @@
 		B60F1A0E1B6449F900AABBA2 /* ARHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARHomeViewController.m; path = ViewController/ARHomeViewController.m; sourceTree = "<group>"; };
 		B60F1A111B644C7100AABBA2 /* ARTwitterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARTwitterViewController.h; path = ViewController/ARTwitterViewController.h; sourceTree = "<group>"; };
 		B60F1A121B644C7100AABBA2 /* ARTwitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARTwitterViewController.m; path = ViewController/ARTwitterViewController.m; sourceTree = "<group>"; };
+		B60F1A261B6513F700AABBA2 /* es-MX */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-MX"; path = "es-MX.lproj/Main.strings"; sourceTree = "<group>"; };
+		B60F1A271B6513F700AABBA2 /* es-MX */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-MX"; path = "es-MX.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		B60F1A291B65140600AABBA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B60F1A2B1B65140D00AABBA2 /* es-MX */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-MX"; path = "es-MX.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		B60F1A2C1B65142D00AABBA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B6FFA5CA4ECB147CB4550F94 /* Pods-Armies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Armies.release.xcconfig"; path = "Pods/Target Support Files/Pods-Armies/Pods-Armies.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,6 +114,7 @@
 		B609AB5A1B584C7900B1F8CD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B60F1A2A1B65140600AABBA2 /* Localizable.strings */,
 				B609AB5B1B584C7900B1F8CD /* Info.plist */,
 				B609AB5C1B584C7900B1F8CD /* main.m */,
 			);
@@ -262,6 +269,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"es-MX",
 			);
 			mainGroup = B609AB4E1B584C7900B1F8CD;
 			productRefGroup = B609AB581B584C7900B1F8CD /* Products */;
@@ -279,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B609AB661B584C7900B1F8CD /* Main.storyboard in Resources */,
+				B60F1A281B65140600AABBA2 /* Localizable.strings in Resources */,
 				B609AB6B1B584C7900B1F8CD /* LaunchScreen.xib in Resources */,
 				B609AB681B584C7900B1F8CD /* Images.xcassets in Resources */,
 			);
@@ -344,6 +353,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				B609AB651B584C7900B1F8CD /* Base */,
+				B60F1A261B6513F700AABBA2 /* es-MX */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -352,8 +362,20 @@
 			isa = PBXVariantGroup;
 			children = (
 				B609AB6A1B584C7900B1F8CD /* Base */,
+				B60F1A271B6513F700AABBA2 /* es-MX */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		B60F1A2A1B65140600AABBA2 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B60F1A291B65140600AABBA2 /* Base */,
+				B60F1A2B1B65140D00AABBA2 /* es-MX */,
+				B60F1A2C1B65142D00AABBA2 /* en */,
+			);
+			name = Localizable.strings;
+			path = ../Localization;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

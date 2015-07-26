@@ -7,6 +7,8 @@
 //
 
 #import "ARHomeViewController.h"
+//#import <ECSlidingViewController/ECSlidingViewController.h>
+#import <ECSlidingViewController/UIViewController+ECSlidingViewController.h>
 
 @interface ARHomeViewController ()
 
@@ -14,8 +16,27 @@
 
 @implementation ARHomeViewController
 
+#pragma mark - View Life Cycle
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self initialConfigurations];
+}
+
+#pragma mark - Private Methods
+
+- (void)initialConfigurations {
+    self.title = NSLocalizedString(@"MENU_HOME", nil);
+}
+
+#pragma mark - Actions
+
+- (IBAction)showMenu:(id)sender {
+    [self.slidingViewController anchorTopViewToRightAnimated:YES];
+}
+
+- (IBAction)showTwitter:(id)sender {
+    [self.slidingViewController anchorTopViewToLeftAnimated:YES];
 }
 
 @end

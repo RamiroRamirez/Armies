@@ -14,8 +14,16 @@
 
 @implementation ARImagesViewController
 
+#pragma mark - View Life Cycle
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+}
+
+#pragma mark - Private Methods
+
+- (void)initialConfigurations {
+    self.title = NSLocalizedString(@"MENU_IMAGES", nil);
 }
 
 @end

@@ -104,7 +104,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="rS1-dA-MmK"/>
+                    <navigationItem key="navigationItem" id="rS1-dA-MmK">
+                        <barButtonItem key="leftBarButtonItem" title="Menu" id="jJ2-5m-Tnv">
+                            <connections>
+                                <action selector="showMenu:" destination="RtX-ea-z3o" id="RLt-nP-2jQ"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Twitter" id="LmI-c2-y8d">
+                            <connections>
+                                <action selector="showTwitter:" destination="RtX-ea-z3o" id="VUL-gL-D9c"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XdU-nC-BC9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

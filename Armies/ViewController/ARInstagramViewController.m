@@ -14,8 +14,16 @@
 
 @implementation ARInstagramViewController
 
+#pragma mark - View Life Cycle
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+}
+
+#pragma mark - Private Methods
+
+- (void)initialConfigurations {
+    self.title = NSLocalizedString(@"MENU_INSTAGRAM", nil);
 }
 
 @end
