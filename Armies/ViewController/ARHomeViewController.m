@@ -7,7 +7,6 @@
 //
 
 #import "ARHomeViewController.h"
-//#import <ECSlidingViewController/ECSlidingViewController.h>
 #import <ECSlidingViewController/UIViewController+ECSlidingViewController.h>
 
 @interface ARHomeViewController ()

@@ -7,6 +7,7 @@
 //
 
 #import "ARMenuViewController.h"
+#import <ECSlidingViewController/UIViewController+ECSlidingViewController.h>
 
 @interface ARMenuViewController ()
 
@@ -17,6 +18,13 @@
 # pragma mark -  View Life cycle
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self initialConfigurations];
+}
+
+#pragma mark - Private Methods
+
+- (void)initialConfigurations {
+    self.slidingViewController.topViewAnchoredGesture =  ECSlidingViewControllerAnchoredGestureTapping | ECSlidingViewControllerAnchoredGestureCustom;
 }
 
 @end
