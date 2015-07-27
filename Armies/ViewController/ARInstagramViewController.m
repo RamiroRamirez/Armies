@@ -7,6 +7,7 @@
 //
 
 #import "ARInstagramViewController.h"
+#import <ECSlidingViewController/UIViewController+ECSlidingViewController.h>
 
 @interface ARInstagramViewController ()
 
@@ -14,8 +15,22 @@
 
 @implementation ARInstagramViewController
 
+#pragma mark - View Life Cycle
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self initialConfigurations];
 }
 
+#pragma mark - Private Methods
+
+- (void)initialConfigurations {
+    self.title = NSLocalizedString(@"MENU_INSTAGRAM", nil);
+}
+
+#pragma mark - Actions
+
+- (IBAction)showMenu:(id)sender {
+    [self.slidingViewController anchorTopViewToRightAnimated:YES];
+}
 @end
