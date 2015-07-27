@@ -7,6 +7,7 @@
 //
 
 #import "ARTwitterViewController.h"
+#import <ECSlidingViewController/UIViewController+ECSlidingViewController.h>
 
 @interface ARTwitterViewController ()
 
@@ -18,12 +19,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self initialConfigurations];
     // Do any additional setup after loading the view.
 }
 
 #pragma mark - Private Methods
 
 - (void)initialConfigurations {
+    self.slidingViewController.topViewAnchoredGesture =  ECSlidingViewControllerAnchoredGestureTapping | ECSlidingViewControllerAnchoredGestureCustom;
 }
 
 @end

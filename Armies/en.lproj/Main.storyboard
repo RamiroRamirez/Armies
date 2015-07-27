@@ -39,28 +39,130 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="tDB-Ca-Xzg">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4SB-SS-aZt">
+                                <rect key="frame" x="16" y="63" width="200" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="ROp-NF-Ki3"/>
+                                    <constraint firstAttribute="height" constant="30" id="XPr-TJ-PMl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Home">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="menuPressed:" destination="7aQ-GT-E0M" eventType="touchUpInside" id="A5q-Xi-Mbz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vvb-Ra-IRT">
+                                <rect key="frame" x="16" y="103" width="200" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="9L2-Lf-ckC"/>
+                                    <constraint firstAttribute="width" constant="200" id="dSk-Ys-LuM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Biografías">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="menuPressed:" destination="7aQ-GT-E0M" eventType="touchUpInside" id="CoS-Rf-0Do"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x8k-5o-x5m">
+                                <rect key="frame" x="16" y="154" width="200" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="4wS-1B-SmK"/>
+                                    <constraint firstAttribute="height" constant="41" id="tou-c1-59q"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Videos">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="menuPressed:" destination="7aQ-GT-E0M" eventType="touchUpInside" id="H6W-u2-iIQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9nr-Nj-zlJ">
+                                <rect key="frame" x="16" y="205" width="200" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="IaE-OA-4nO"/>
+                                    <constraint firstAttribute="width" constant="200" id="iZz-O1-CGT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Imágenes">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="menuPressed:" destination="7aQ-GT-E0M" eventType="touchUpInside" id="kia-8r-URp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="acz-su-9eO">
+                                <rect key="frame" x="16" y="256" width="200" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Uy4-Zf-A0N"/>
+                                    <constraint firstAttribute="height" constant="41" id="ddo-CL-Gq7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Instagram">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="menuPressed:" destination="7aQ-GT-E0M" eventType="touchUpInside" id="PTM-QW-lmo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e0L-nz-HSK">
+                                <rect key="frame" x="16" y="307" width="200" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="AsV-Ys-kgN"/>
+                                    <constraint firstAttribute="height" constant="41" id="kTG-Yg-2ef"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Configuraciones">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="menuPressed:" destination="7aQ-GT-E0M" eventType="touchUpInside" id="8rW-33-zO3"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="jz7-BI-1K3" firstAttribute="top" secondItem="tDB-Ca-Xzg" secondAttribute="bottom" id="EP4-MC-ERs"/>
-                            <constraint firstItem="tDB-Ca-Xzg" firstAttribute="leading" secondItem="5E2-WU-qub" secondAttribute="leading" id="HLO-hf-x3Z"/>
-                            <constraint firstItem="tDB-Ca-Xzg" firstAttribute="top" secondItem="5E2-WU-qub" secondAttribute="top" id="aKA-7P-fFz"/>
-                            <constraint firstAttribute="trailing" secondItem="tDB-Ca-Xzg" secondAttribute="trailing" id="o2K-qf-uNc"/>
+                            <constraint firstItem="9nr-Nj-zlJ" firstAttribute="top" secondItem="x8k-5o-x5m" secondAttribute="bottom" constant="10" id="0KH-h5-NC3"/>
+                            <constraint firstItem="Vvb-Ra-IRT" firstAttribute="leading" secondItem="5E2-WU-qub" secondAttribute="leading" constant="16" id="2si-Ia-fdo"/>
+                            <constraint firstItem="x8k-5o-x5m" firstAttribute="leading" secondItem="5E2-WU-qub" secondAttribute="leading" constant="16" id="C4b-Re-agK"/>
+                            <constraint firstItem="acz-su-9eO" firstAttribute="leading" secondItem="5E2-WU-qub" secondAttribute="leading" constant="16" id="F6I-bv-KAK"/>
+                            <constraint firstItem="e0L-nz-HSK" firstAttribute="leading" secondItem="5E2-WU-qub" secondAttribute="leading" constant="16" id="KIP-0a-7o4"/>
+                            <constraint firstItem="9nr-Nj-zlJ" firstAttribute="leading" secondItem="5E2-WU-qub" secondAttribute="leading" constant="16" id="LAp-9G-lLu"/>
+                            <constraint firstItem="acz-su-9eO" firstAttribute="top" secondItem="9nr-Nj-zlJ" secondAttribute="bottom" constant="10" id="fL2-oA-aoH"/>
+                            <constraint firstItem="e0L-nz-HSK" firstAttribute="top" secondItem="acz-su-9eO" secondAttribute="bottom" constant="10" id="lrB-cv-edQ"/>
+                            <constraint firstItem="x8k-5o-x5m" firstAttribute="top" secondItem="Vvb-Ra-IRT" secondAttribute="bottom" constant="10" id="quf-X7-oDR"/>
+                            <constraint firstItem="4SB-SS-aZt" firstAttribute="leading" secondItem="5E2-WU-qub" secondAttribute="leading" constant="16" id="sLx-Jx-G0Y"/>
+                            <constraint firstItem="4SB-SS-aZt" firstAttribute="top" secondItem="x1W-GH-U10" secondAttribute="bottom" constant="43" id="sc6-21-0ct"/>
+                            <constraint firstItem="Vvb-Ra-IRT" firstAttribute="top" secondItem="4SB-SS-aZt" secondAttribute="bottom" constant="10" id="wSV-TD-Dzh"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outletCollection property="menuButtonsArray" destination="4SB-SS-aZt" id="oV6-g5-JWo"/>
+                        <outletCollection property="menuButtonsArray" destination="Vvb-Ra-IRT" id="9xr-Im-aA8"/>
+                        <outletCollection property="menuButtonsArray" destination="x8k-5o-x5m" id="yQ6-eK-Qfs"/>
+                        <outletCollection property="menuButtonsArray" destination="9nr-Nj-zlJ" id="ZzA-nU-ckF"/>
+                        <outletCollection property="menuButtonsArray" destination="acz-su-9eO" id="Ooz-wX-RjO"/>
+                        <outletCollection property="menuButtonsArray" destination="e0L-nz-HSK" id="Ndd-uW-X1T"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BZp-wL-57a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="393" y="1047"/>
         </scene>
-        <!--View Controller-->
+        <!--Twitter View Controller-->
         <scene sceneID="PDP-uQ-MgC">
             <objects>
-                <viewController storyboardIdentifier="ARTwitterViewController" id="Y2X-hr-4g4" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ARTwitterViewController" id="Y2X-hr-4g4" customClass="ARTwitterViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gyy-hK-EN1"/>
                         <viewControllerLayoutGuide type="bottom" id="f1I-RC-gzc"/>
@@ -150,7 +252,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="SpH-Q9-KA3"/>
+                    <navigationItem key="navigationItem" id="SpH-Q9-KA3">
+                        <barButtonItem key="leftBarButtonItem" title="Menu" id="5cK-dS-HHX">
+                            <connections>
+                                <action selector="showMenu:" destination="1U4-ST-7kM" id="w82-kK-XLm"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SCB-7i-ewl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -169,6 +277,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="blk-Af-YR6">
+                        <barButtonItem key="leftBarButtonItem" title="Menu" id="2p3-rN-mp9">
+                            <connections>
+                                <action selector="showMenu:" destination="zdY-l2-9HQ" id="ddW-A8-9tR"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hFs-Dl-6wT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -187,6 +302,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="d7w-CX-toI">
+                        <barButtonItem key="leftBarButtonItem" title="Menu" id="vpZ-VJ-X6N">
+                            <connections>
+                                <action selector="showMenu:" destination="Ue5-mi-fym" id="Kye-44-6ng"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gRj-DN-5Ul" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -205,6 +327,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="lBG-PN-rgv">
+                        <barButtonItem key="leftBarButtonItem" title="Menu" id="b1G-lU-Of7">
+                            <connections>
+                                <action selector="showMenu:" destination="fHm-6R-PH5" id="5yA-cy-oXs"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FA9-rz-gpy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -223,6 +352,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="UvH-NL-PvX">
+                        <barButtonItem key="leftBarButtonItem" title="Menu" id="QIr-Db-OI5">
+                            <connections>
+                                <action selector="showMenu:" destination="vhc-MJ-yeP" id="RUy-uy-c3n"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DUf-DU-p01" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -231,11 +367,14 @@
         <!--Navigation Controller-->
         <scene sceneID="MXR-ut-NbA">
             <objects>
-                <navigationController id="lL9-mc-Ak8" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="ARSettingsViewController" id="lL9-mc-Ak8" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="zr1-mo-aMu">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
+                    <connections>
+                        <segue destination="vhc-MJ-yeP" kind="relationship" relationship="rootViewController" id="f5T-ya-J6L"/>
+                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="neL-2m-Z5E" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -244,11 +383,14 @@
         <!--Navigation Controller-->
         <scene sceneID="Eiw-tV-sNS">
             <objects>
-                <navigationController id="0FG-WM-wj1" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="ARInstagramViewController" id="0FG-WM-wj1" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="m1D-0t-efS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
+                    <connections>
+                        <segue destination="fHm-6R-PH5" kind="relationship" relationship="rootViewController" id="WVu-v8-ZI1"/>
+                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bXQ-ft-a9C" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -257,11 +399,14 @@
         <!--Navigation Controller-->
         <scene sceneID="wCR-JL-rak">
             <objects>
-                <navigationController id="QLE-Eb-wiz" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="ARImagesViewController" id="QLE-Eb-wiz" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="UIr-gT-ruD">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
+                    <connections>
+                        <segue destination="Ue5-mi-fym" kind="relationship" relationship="rootViewController" id="vWm-hT-IS2"/>
+                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Fn-Ot-yN3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -270,11 +415,14 @@
         <!--Navigation Controller-->
         <scene sceneID="CBq-5R-ehW">
             <objects>
-                <navigationController id="loY-ie-edJ" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="ARVideosViewController" id="loY-ie-edJ" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="zP6-DF-HO3">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
+                    <connections>
+                        <segue destination="zdY-l2-9HQ" kind="relationship" relationship="rootViewController" id="uWg-Y1-8PV"/>
+                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Zj-VE-FpE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

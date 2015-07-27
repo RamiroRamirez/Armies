@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AEA5B9FB-9216-4759-B3A7-658C7DD20186</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Armies</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3F27DE2D6182B353009C48CBA963FC6699A1310C</key>
+		<string>https://github.com/RamiroRamirez/Armies.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Armies.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3F27DE2D6182B353009C48CBA963FC6699A1310C</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/RamiroRamirez/Armies.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3F27DE2D6182B353009C48CBA963FC6699A1310C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3F27DE2D6182B353009C48CBA963FC6699A1310C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Armies</string>
+		</dict>
+	</array>
+</dict>
+</plist>

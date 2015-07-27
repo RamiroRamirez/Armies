@@ -7,6 +7,7 @@
 //
 
 #import "ARBiographyViewController.h"
+#import <ECSlidingViewController/UIViewController+ECSlidingViewController.h>
 
 @interface ARBiographyViewController ()
 
@@ -18,12 +19,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self initialConfigurations];
 }
 
 #pragma mark - Private Methods
 
 - (void)initialConfigurations {
     self.title = NSLocalizedString(@"MENU_BIOGRAPHY", nil);
+}
+
+#pragma mark - Actions
+
+- (IBAction)showMenu:(id)sender {
+    [self.slidingViewController anchorTopViewToRightAnimated:YES];
 }
 
 @end

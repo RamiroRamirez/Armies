@@ -7,6 +7,7 @@
 //
 
 #import "ARVideosViewController.h"
+#import <ECSlidingViewController/UIViewController+ECSlidingViewController.h>
 
 @interface ARVideosViewController ()
 
@@ -18,6 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self initialConfigurations];
 }
 
 #pragma mark - Private Methods
@@ -26,4 +28,9 @@
     self.title = NSLocalizedString(@"MENU_VIDEOS", nil);
 }
 
+#pragma mark - Actions
+
+- (IBAction)showMenu:(id)sender {
+    [self.slidingViewController anchorTopViewToRightAnimated:YES];
+}
 @end

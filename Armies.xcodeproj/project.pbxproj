@@ -30,9 +30,7 @@
 		B609AB571B584C7900B1F8CD /* Armies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Armies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B609AB5B1B584C7900B1F8CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B609AB5C1B584C7900B1F8CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B609AB651B584C7900B1F8CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B609AB671B584C7900B1F8CD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B609AB6A1B584C7900B1F8CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B60F19F01B64472D00AABBA2 /* ARAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARAppDelegate.h; path = AppDelegate/ARAppDelegate.h; sourceTree = "<group>"; };
 		B60F19F11B64472D00AABBA2 /* ARAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARAppDelegate.m; path = AppDelegate/ARAppDelegate.m; sourceTree = "<group>"; };
 		B60F19F51B64476F00AABBA2 /* ARMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARMenuViewController.h; path = ViewController/ARMenuViewController.h; sourceTree = "<group>"; };
@@ -51,11 +49,12 @@
 		B60F1A0E1B6449F900AABBA2 /* ARHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARHomeViewController.m; path = ViewController/ARHomeViewController.m; sourceTree = "<group>"; };
 		B60F1A111B644C7100AABBA2 /* ARTwitterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARTwitterViewController.h; path = ViewController/ARTwitterViewController.h; sourceTree = "<group>"; };
 		B60F1A121B644C7100AABBA2 /* ARTwitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARTwitterViewController.m; path = ViewController/ARTwitterViewController.m; sourceTree = "<group>"; };
-		B60F1A261B6513F700AABBA2 /* es-MX */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-MX"; path = "es-MX.lproj/Main.strings"; sourceTree = "<group>"; };
-		B60F1A271B6513F700AABBA2 /* es-MX */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-MX"; path = "es-MX.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		B60F1A291B65140600AABBA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B60F1A2B1B65140D00AABBA2 /* es-MX */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-MX"; path = "es-MX.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		B60F1A2C1B65142D00AABBA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B6DD28621B659038006E2C10 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6DD28631B65906C006E2C10 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B6DD28641B66CD74006E2C10 /* ARConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARConstants.h; path = Helpers/ARConstants.h; sourceTree = "<group>"; };
 		B6FFA5CA4ECB147CB4550F94 /* Pods-Armies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Armies.release.xcconfig"; path = "Pods/Target Support Files/Pods-Armies/Pods-Armies.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,6 +106,7 @@
 				B609AB671B584C7900B1F8CD /* Images.xcassets */,
 				B609AB691B584C7900B1F8CD /* LaunchScreen.xib */,
 				B609AB5A1B584C7900B1F8CD /* Supporting Files */,
+				B6DD28671B66CD7E006E2C10 /* Helpers */,
 			);
 			path = Armies;
 			sourceTree = "<group>";
@@ -215,6 +215,14 @@
 				B60F1A121B644C7100AABBA2 /* ARTwitterViewController.m */,
 			);
 			name = ARTwitterViewController;
+			sourceTree = "<group>";
+		};
+		B6DD28671B66CD7E006E2C10 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B6DD28641B66CD74006E2C10 /* ARConstants.h */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 		C7FE531D43563C620473341F /* Frameworks */ = {
@@ -352,8 +360,7 @@
 		B609AB641B584C7900B1F8CD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B609AB651B584C7900B1F8CD /* Base */,
-				B60F1A261B6513F700AABBA2 /* es-MX */,
+				B6DD28621B659038006E2C10 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -361,8 +368,7 @@
 		B609AB691B584C7900B1F8CD /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B609AB6A1B584C7900B1F8CD /* Base */,
-				B60F1A271B6513F700AABBA2 /* es-MX */,
+				B6DD28631B65906C006E2C10 /* en */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
